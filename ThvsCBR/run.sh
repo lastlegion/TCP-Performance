@@ -12,7 +12,7 @@ do
     #do
         time=$i"ms"
         cbrBW=$j"mb"
-        ns nw.tcl $cbrBW $time $j
+        ns nw.tcl $cbrBW $time 10
         echo -n $cbrBW" "  #cbrBW
         echo -n 10 " " #Queue
         echo -n "10ms "
